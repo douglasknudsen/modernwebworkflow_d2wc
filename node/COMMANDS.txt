@@ -1,0 +1,39 @@
+
+
+
+cd ../node
+
+
+node myServer.js
+
+then load  http://localhost:8000/
+
+
+uncomment line 4
+
+
+node myServer.js  <--= not the error, dependency!!!
+
+
+*****if needed      
+rm -fR node_modules
+
+
+ls   <-- showe nothing but src...and the manifest
+
+
+npm install
+
+
+ls <-- now we see dependencies there  
+
+
+node myServer.js
+
+
+----------------
+
+now move to testinit folder
+
+npm init
+node install underscore --save-dev

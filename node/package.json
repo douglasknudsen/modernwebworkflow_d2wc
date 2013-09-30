@@ -1,0 +1,16 @@
+{
+  "name": "myServer",
+  "description": "simple example",
+  "author": "Dr. Zhivago",
+
+  "dependencies": {
+    "lodash": "1.3.x"
+  },
+
+  "repository" :  { 
+    "type" : "git"
+    , "url" : "http://github.com/something/npm.git"
+  },
+
+  "engine": "node >= 0.10.0"
+}
